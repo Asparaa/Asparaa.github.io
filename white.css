@@ -1,0 +1,366 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+body {
+ /* プロジェクトによって変動 */
+ min-width: 1000px;
+ color: #000;
+ line-height: 1.6;
+ font-weight: 400;
+ font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', Meiryo, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+
+ width: 100%;
+ font-smoothing: antialiased;
+ font-variant-numeric: tabular-nums;
+ /* safari hover対策 */
+ -webkit-font-smoothing: antialiased;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+ display:block;
+}
+
+ul, ol {
+ list-style:none;
+}
+
+blockquote, q {
+ quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content:'';
+ content:none;
+}
+
+a {
+ margin:0;
+ padding:0;
+ vertical-align:baseline;
+ text-decoration: none;
+ color: inherit;
+}
+
+/* change colours to suit your needs */
+ins {
+ background-color:#ff9;
+ color:#000;
+ text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+ background-color:#ff9;
+ color:#000;
+ font-style:italic;
+ font-weight:bold;
+}
+
+del {
+ text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+}
+
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+ display:block;
+ height:1px;
+ border:0;
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+}
+
+input, select {
+ vertical-align:middle;
+}
+
+img {
+ vertical-align: bottom;
+ line-height: 1.0;
+}
+
+button {
+ line-height: 1.0;
+ background-color: transparent;
+ border: none;
+ cursor: pointer;
+ outline: none;
+ padding: 0;
+ appearance: none;
+}
+
+
+
+/* ここから */
+
+
+
+body {
+  width: 980px;
+  margin: 0 auto;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  padding-top: 70px;
+}
+
+.logo-area {
+  float: left;
+}
+
+.logo {
+  font-size: 38px;
+  font-weight: bolder;
+  line-height: 20px;
+} 
+
+.logo-area p {
+  color: #777777;
+  font-size: 18px;
+}
+
+
+.menu-area {
+  float: right;
+}
+
+.menu-area ul li {
+  float: left;
+  padding:30px 30px 0 0;
+  
+}
+
+.menu-area ul li:last-child {
+  padding-right: 200px;
+}
+
+.main-top-img {
+  padding: 75px 0 90px 0;
+  display: inline-block;
+}
+
+.main-top-text {
+  padding-bottom: 90px;
+}
+
+.main-top-text p {
+  font-size: 27px;
+  color: #6d6d6d;
+}
+
+
+
+.art {
+  padding-bottom: 60px;
+}
+
+.art .date {
+  display: inline-block;
+  padding: 0 100px 100px 0;
+  float: left;
+  width: 22%;
+  opacity: .6;
+}
+
+.art-top {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+
+.date:hover {
+  opacity: 1;
+}
+
+.art-text {
+ color: #6d6d6d;
+ font-size: 18px;
+}
+
+.art-btn {
+  padding: 60px 0 120px 0;
+  margin-left: 32%;
+  
+}
+
+.art-btn a {
+  padding: 15px 20px;
+  border:1px solid #adadad;
+  margin-right: 3px;
+  font-weight: bold;
+  opacity: .6;
+}
+
+.art-btn a:hover {
+  opacity: 1;
+}
+
+.art-btn a:first-child {
+  background-color: #ebebeb;
+  opacity: 1;
+}
+
+.footer-top {
+  border-top: 1px solid #dadada;
+  padding-top: 80px;
+  height: 380px;
+
+}
+
+.pro-img img{
+  width: 100px;
+  border-radius: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.profile {
+  width: 30%;
+  float: left;
+  display: inline-block;
+  padding-right: 2%;
+}
+
+.right-footer,.recently,.category {
+  width: 20%;
+  float: left;
+  display: inline-block;
+  padding-right: 2%;
+}
+
+.footer-bottom {
+  clear: both;
+  border-top:1px solid #e4e2e2 ;
+  padding: 70px 0;
+}
+
+.icons {
+  float: left;
+}
+
+.footer-bottom-text {
+  text-align: center;
+}
+
+.pro-top {
+  text-align: center;
+}
+
+.footer-top p {
+  font-size: 17px;
+  color: #6d6d6d
+}
+
+.pro-name {
+  padding: 20px 15px 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pro-name p {
+  color: #000;
+}
+
+.pro-top-rig {
+  padding-bottom: 40px;
+}
+
+.pro-top-rig i {
+  padding-right: 10px;
+  font-size: 23px;
+  opacity: .5;
+}
+
+.top {
+  padding-bottom: 30px;
+}
+
+.top p {
+  font-size: 16px;
+  color: #000;
+}
+
+.footer-top a {
+ border-bottom: 1px solid #dddddd;
+ color: #6d6d6d;
+
+}
+
+
+.footer-top li {
+  color: #6d6d6d;
+  padding: 8px 0 ;
+}
+
+.footer-bottom i,.footer-bottom p {
+  color: #6d6d6d;
+}
+
+.footer-bottom i {
+  font-size: 28px;
+  padding-right: 15px; 
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.footer-bottom-text a{
+  color: #6d6d6d;
+  transition:all 0.3s;
+}
+
+.footer-bottom-text a:hover {
+  color: #000;
+  
+}
+
+.footer-bottom i:hover {
+  opacity: 0.9;
+}
+
+.search-box {
+  display: none;
+}
